@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/gift_exchanged_item_Photo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:contentDescription="dd"
+            android:src="@drawable/fix_instruction" />
+
+        <TextView
+            android:id="@+id/gift_exchanged_item_exchangecode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/gift_exchanged_item_Photo"
+            android:layout_alignTop="@id/gift_exchanged_item_Photo"
+            android:textColor="#fff" />
+
+        <ImageView
+            android:id="@+id/gift_exchanged_item_isused"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/gift_exchanged_item_Photo"
+            android:layout_alignRight="@id/gift_exchanged_item_Photo"
+            android:contentDescription="ee"
+            android:src="@drawable/fix1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="178dp"
+        android:text="TextView" />
+</RelativeLayout>
